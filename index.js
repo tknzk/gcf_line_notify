@@ -9,7 +9,7 @@ var request = require('request');
 var config = require('config');
 var lineConfigAccessToken = config.Line.access_token;
 
-exports.sendineNotify = function sendLineNotify (req, res) {
+exports.sendLineNotify = function sendLineNotify (req, res) {
   var options = {
     url: 'https://notify-api.line.me/api/notify',
     method: 'POST',
