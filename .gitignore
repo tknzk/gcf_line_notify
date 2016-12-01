@@ -7,7 +7,7 @@ npm-debug.log*
 *.sw*
 
 # config
-config/*json
+config/production.json
 
 # Runtime data
 pids
