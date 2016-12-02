@@ -1,8 +1,8 @@
 /**
- * Cloud Function.
+ * HTTP Cloud Function.
  *
- * @param {object} event The Cloud Functions event.
- * @param {function} The callback function.
+ * @param {Object} req Cloud Function request context.
+ * @param {Object} res Cloud Function response context.
  */
 
 var request = require('request');
