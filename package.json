@@ -4,7 +4,7 @@
   "description": "cloud functions line notify integration",
   "main": "index.js",
   "dependencies": {
-    "config": "^1.24.0",
+    "config": "^3.3.2",
     "request": "^2.79.0"
   },
   "devDependencies": {},
